@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title> Ukraine Map</title>
+    <script language="Javascript">
+    function toggle( targetId ) {
+        let target = document.getElementById( targetId );
+        if ( target ) {
+            if ( target.style.display == "none" ) {
+                target.style.display = "block";
+            }
+            else {
+                target.style.display = "none";
+            }
+        }
+    }
+</script>
+
+    <script type="text/javascript" src="functions.js"></script>
+
+</head>
+<body>
+<div id="header">
+    <h2 align="center">Карта областей України</h2>
+</div>
+<div id="content">
+    <div id="sidebar">
+        <input type="checkbox" name="toggleoblasts" checked
+               onclick="toggle('oblasts')"> Області<br>
+        <input type="checkbox" name="toggleoblasts" checked
+               onclick="toggle('roads')"> Дороги<br>
+        <input type="checkbox" name="toggleoblasts" checked
+               onclick="toggle('rivers')"> Річки <br>
+        <input type="checkbox" name="toggleoblasts" checked
+               onclick="toggle('lakes')"> Озера<br>
+
+    </div>
+    <div id="ukrmap">
+
+<div style="position:absolute; left:0; top:0; z-index:1;"
+     border="0" id="oblasts">
+    <img alt="oblasts" src="oblasts/oblasts.gif"width="998" height="570">
+</div>
+<div style="position:absolute; left:0; top:0; z-index:2;"
+     border="0" id="rivers">
+    <img alt="rivers" src="rivers/rivers.gif"width="998" height="570">
+</div>
+<div style="position:absolute; left:0; top:0; z-index:3;"
+     border="0" id="lakes">
+    <img alt="lakes" src="lakes/lakes.gif"width="998" height="570">
+</div>
+<div style="position:absolute; left:0; top:0; z-index:4;"
+     border="0" id="roads">
+    <img alt="roads" src="roads/roads.gif"width="998" height="570">
+</div>
+<div style="position:absolute; left:0; top:0; z-index:5;"
+     border="0" id="blank">
+    <img alt="blank" src="blank/blank.gif"width="998" height="570">
+</div>
+        <map name="mapmap">
+            <area shape="poly"  onclick="return popup(https://uk.wikipedia.org/wiki/%D0%A1%D1%83%D0%BC%D0%B8')" coords="571 …
+            …
+        </map>
+    </div>
+</div>
+
+</body>
+</html>
+
+</body>
+</html>

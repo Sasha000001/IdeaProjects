@@ -1,0 +1,31 @@
+body {background-color: #FFFFFF;
+    margin-top: 2%;
+    margin-right:10%;
+    margin-bottom: 2%;
+    margin-left: 10%; }
+h1 { font-family: Georgia, Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000033; }
+h2 { font-family: Helvetica, Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0000FF;
+}
+
+p { color: #007FFF;
+    font-size: 18px;
+}
+.poem
+{position: absolute; top: 70px; left: 100px
+    border-right: 2px solid #007FFF;
+    border-left: 2px solid #007FFF;
+    padding: 0 0 20px 20px;
+    width: 80%;
+    z-index: 1;}
+.callout
+{position: absolute; top: 100px; left: 400px; right:
+        20px; z-index: 2;
+    padding: 5px 5px 5px 5px;
+    background: #AACCFF;
+    border: 2px solid #000000}

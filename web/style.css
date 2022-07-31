@@ -1,0 +1,29 @@
+#header{
+    display:block;
+    padding: 20px;
+    color: blue;
+    background-color: khaki;
+    font-size: 20px;
+}
+#content {
+    display:block;
+    width: 80%;
+
+    margin: auto;
+    background: red;
+}
+#ukrmap {
+    position:relative;
+    display:block;
+    width:84%;
+    float:right;
+}
+#sidebar {
+    display:block;
+    width:15%;
+    float:left;
+    border:2px solid #0465DD;
+    color: blue;
+    background-color: khaki;
+
+}
